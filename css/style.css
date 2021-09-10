@@ -3,6 +3,18 @@
   padding: 0;
 }
 
+@media (min-width: 700px) {
+  .main-container-1 {
+    display: flex;
+  }
+
+  .main-container-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+
 body {
   background-image: url('../images/background.jpg');
   background-position: center;
